@@ -29,12 +29,12 @@
 	const i18n = getContext('i18n');
 
 	export let initNewChat: Function;
-	export const title:any = "EZchat";
+	export let title: string = EZchat;
 	//export let title: string = $WEBUI_NAME;
 	export let shareEnabled: boolean = false;
 
 	export let chat;
-	export let selectedModels:any;
+	export let selectedModels;
 	export let showModelSelector = true;
 
 	let showShareChatModal = false;
